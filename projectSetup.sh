@@ -14,4 +14,4 @@ replace "$PROJECT_NAME" "$project_name" package.json
 replace "$PROJECT_NAME" "$project_name" package-lock.json
 replace "$PROJECT_NAME" "$project_name" README.md
 
-echo "Replaced '$PROJECT_NAME' with '$project_name' in package.json and package-lock.json."
+echo "Finished setting up project"
