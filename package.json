@@ -31,6 +31,8 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
+	"setup": "sh projectSetup.sh",
+
     "lint": "gts lint",
     "fix": "gts fix",
     "build": "tsc -p tsconfig.build.json",
