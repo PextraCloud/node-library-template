@@ -35,6 +35,7 @@ The [test](./test) directory contains the tests. Tests are written with [mocha](
 4. Begin development!
 
 **BELOW IS THE README FOR THE TEMPLATE REPOSITORY.**
+**REMOVE THIS SECTION FROM YOUR README.**
 
 ---
 ---
