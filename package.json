@@ -32,6 +32,7 @@
   },
   "scripts": {
 	"setup": "sh projectSetup.sh",
+	"postinstall": "husky install",
 
     "lint": "gts lint",
     "fix": "gts fix",

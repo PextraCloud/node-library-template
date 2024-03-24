@@ -14,4 +14,11 @@ replace "$PROJECT_NAME" "$project_name" package.json
 replace "$PROJECT_NAME" "$project_name" package-lock.json
 replace "$PROJECT_NAME" "$project_name" README.md
 
+echo "Installing dependencies"
+npm install
+
+echo "Setting up git hooks"
+npx husky install
+npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+
 echo "Finished setting up project"
